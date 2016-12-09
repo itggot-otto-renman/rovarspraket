@@ -1,6 +1,6 @@
 def rovarize(sentance:)
 
-vowels = ["A", "E", "I", "O", "U", "Y", "Å", "Ä", "Ö"]
+vowels = ["A", "E", "I", "O", "U", "Y", "Å", "Ä", "Ö"," "]
 output = ""
 index = 0
   while index < sentance.length
@@ -15,3 +15,6 @@ index = 0
   return output
 
 end
+
+
+#def derovarize(cipher:)
