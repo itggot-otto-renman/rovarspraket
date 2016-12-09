@@ -17,4 +17,20 @@ index = 0
 end
 
 
-#def derovarize(cipher:)
+def derovarize(sentance:)
+
+consonants =  ["B", "C", "D", "F", "G", "H", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "V", "W", "X", "Y", "Z"]
+output = ""
+index = 0
+  while index < sentance.length
+  letter = sentance[index]
+    if consonants.include?(letter.upcase)
+      output = output + letter
+      index = index + 3
+    else
+      output = output + letter
+      index = index + 1
+    end
+  end
+  return output
+end

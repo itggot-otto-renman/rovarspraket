@@ -1,3 +1,5 @@
 require_relative 'lib/rovarizer.rb'
 
-puts rovarize(sentance: "Erik")
+#puts rovarize(sentance: "Otto")
+
+puts derovarize(sentance: "Erorikok" )
